@@ -11,7 +11,7 @@
             Happy Holidays! 🎉 Closed: Dec 26, Jan 2, Jan 9
         </div>
         <header>
-            <img class="logo" src="images/sierra-bakehouse-logo.png" alt="sierra-bakehouse-logo">
+            <a href="index.html"><img class="logo" src="images/sierra-bakehouse-logo.png" alt="sierra-bakehouse-logo"></a>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="menu.html">Menu</a>
@@ -25,9 +25,18 @@
             <p>Friday, December 5th</p>
         </section>
 
+
         <section class="menu-section">
-            <h2>Croissants | $8</h2>
-            <div class="menu-grid">
+            <div class="tab">
+                <button class="tablinks" onclick="openTable(event, 'Croissants')">Croissants</button>
+                <button class="tablinks" onclick="openTable(event, 'Breakfast Pastries')">Breakfast Pastries</button>
+                <button class="tablinks" onclick="openTable(event, 'Savory Items')">Savory Items</button>
+                <button class="tablinks" onclick="openTable(event, 'Sweets')">Sweets</button>
+                <button class="tablinks" onclick="openTable(event, 'Bars')">Bars</button>
+            </div>
+            <div id="Croissants" class="menu-grid">
+                <span onclick="closeTab(this)" class="topright">&times</span>
+                <h2>Croissants | $8</h2>
                 <div class="menu-item">
                     <h3>Chocolate</h3>
                     <p>A lovely description of this item</p>
@@ -53,8 +62,9 @@
                     <p>A lovely description of this item</p>
                 </div>
             </div>
-            <h2>Breakfast Pastries | $6</h2>
-            <div class="menu-grid">
+            <div id="Breakfast Pastries" class="menu-grid">
+                <span onclick="closeTab(this)" class="topright">&times</span>
+                <h2>Breakfast Pastries | $6</h2>
                 <div class="menu-item">
                     <h3>Pear and Cranberry Scone</h3>
                     <p>A lovely description of this item</p>
@@ -68,8 +78,9 @@
                     <p>A lovely description of this item</p>
                 </div>
             </div>
-            <h2>Savory Items</h2>
-            <div class="menu-grid">
+            <div id="Savory Items" class="menu-grid">
+                <span onclick="closeTab(this)" class="topright">&times</span>
+                <h2>Savory Items</h2>
                 <div class="menu-item">
                     <h3>Butternut, Mushroom, Kale, Gruyere Cheese Quiche</h3>
                     <p>Whole: $35 | Slice: $7</p>
@@ -101,8 +112,9 @@
                     <p>A lovely description of this item</p>
                 </div>
             </div>
-            <h2>Sweets $8</h2>
-            <div class="menu-grid">
+            <div id="Sweets" class="menu-grid">
+                <span onclick="closeTab(this)" class="topright">&times</span>
+                <h2>Sweets | $8</h2>
                 <div class="menu-item">
                     <h3>Chocolate</h3>
                     <p>A lovely description of this item</p>
@@ -128,8 +140,9 @@
                     <p>A lovely description of this item</p>
                 </div>
             </div>
-            <h2>Bars $5</h2>
-            <div class="menu-grid">
+            <div id="Bars" class="menu-grid">
+                <span onclick="closeTab(this)" class="topright">&times</span>
+                <h2>Bars | $5</h2>
                 <div class="menu-item">
                     <h3>Chocolate</h3>
                     <p>A lovely description of this item</p>
@@ -155,32 +168,8 @@
                     <p>A lovely description of this item</p>
                 </div>
             </div>
-            <h2>Cookies $4</h2>
-            <div class="menu-grid">
-                <div class="menu-item">
-                    <h3>Chocolate</h3>
-                    <p>A lovely description of this item</p>
-                </div>
-                <div class="menu-item">
-                    <h3>Milk Chocolate Pear</h3>
-                    <p>A lovely description of this item</p>
-                </div>
-                <div class="menu-item">
-                    <h3>Harissa Mushroom Goat Cheese</h3>
-                    <p>A lovely description of this item</p>
-                </div>
-                <div class="menu-item">
-                    <h3>Ham and Cheddar</h3>
-                    <p>A lovely description of this item</p>
-                </div>
-                <div class="menu-item">
-                    <h3>Rosemary Parmesan</h3>
-                    <p>A lovely description of this item</p>
-                </div>
-                <div class="menu-item">
-                    <h3>Mexican Mocha Morning Bun</h3>
-                    <p>A lovely description of this item</p>
-                </div>
+            <div class="notice">
+                <h3>Please choose a menu category above to see your options for today!</h3>
             </div>
         </section>
         <script src="scripts/main.js"></script>
