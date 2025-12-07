@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #333;
+    background: #faf7f2
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+}
+
+.hero {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-image: url("/images/sierra-bakehouse-hero2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 0px 2px 10px rgba(0,0,0,0.6);
+}
+
+.logo {
+    width: 10rem;
+}
+
+.announcement-banner {
+    background-color: #f3d9b1;
+    color: #5a3e1b;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #e2c8a3
+}
+
+.menu-section {
+    padding: 40px 20px;
+}
+
+.menu-section h2 {
+    font-size: 28px;
+    margin-bottom:20px;
+    color: #5a3e1b;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,ifr));
+    gap: 25px;
+}
+
+.menu-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
