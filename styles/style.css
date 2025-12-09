@@ -16,9 +16,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.desc {
+    font-family: "Instrument Serif", serif;
+    font-size: 1.5rem;
+    margin: 2.5rem;
+    font-weight: 600;
+}
+
 .site-header-container {
     position: relative;
-    height: 600px;
+    height: 700px;
     z-index: 2;
 }
 
@@ -68,11 +75,14 @@ header {
 }
 
 nav a {
-    margin-left: 20px;
+    margin-right: 20px;
     text-decoration: none;
     color: var(--primary-brown);
     font-weight: 600;
     transition: color 0.3s ease;
+    font-family: "Cormorant", serif;
+    font-size: 1.5rem;
+    font-optical-sizing: auto;
 }
 
 nav a:hover {
@@ -106,6 +116,9 @@ nav a:hover {
     text-align: center;
     color: white;
     text-shadow: 0px 3px 15px rgba(0,0,0,0.8);
+    font-family: "Cormorant", serif;
+    font-size: 2rem;
+    font-optical-sizing: auto;
 }
 
 .menu-section {
@@ -113,6 +126,7 @@ nav a:hover {
 }
 
 .menu-section h2 {
+    font-family: "Instrument Serif", serif;
     font-size: 32px;
     margin-bottom: 30px;
     color: var(--primary-brown);
@@ -151,9 +165,12 @@ nav a:hover {
     background-color: var(--site-bg);
     text-align: center;
     margin-bottom: 30px;
+    margin: 2rem;
 }
 
 .tab button {
+    font-family: "Instrument Serif", serif;
+    font-size: 1.3rem;
     background-color: var(--secondary-beige);
     border: 1px solid var(--accent-wheat);
     border-radius: 8px;
@@ -182,8 +199,10 @@ nav a:hover {
 }
 
 .menu-grid.active {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     opacity: 1;
+    align-items: start;
 }
 
 .notice {
@@ -196,10 +215,10 @@ nav a:hover {
 .topright {
     cursor: pointer;
     font-size: 2.5rem;
-    color: #999;
+    color: #c09e91;
     position: absolute;
-    top: 15px;
-    right: 20px;
+    top: 5px;
+    left: 20px;
     
     display: block;
     width: 30px;
@@ -212,4 +231,25 @@ nav a:hover {
 
 .topright:hover {
     color: var(--primary-brown);
+}
+
+.footer {
+    display: flex;
+    gap: 20px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.footer-div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    color: var(--primary-brown);
+}
+
+.lines {
+    border-top: 3px solid var(--accent-wheat);
 }
