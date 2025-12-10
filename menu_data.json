@@ -1,0 +1,206 @@
+{
+    "Croissants": [
+        {
+            "name": "Chocolate",
+            "price": "$8"
+        },
+        {
+            "name": "Milk Chocolate Pear",
+            "price": "$8"
+        },
+        {
+            "name": "Harissa Mushroom Goat",
+            "price": "$8"
+        },
+        {
+            "name": "Ham and Cheddar",
+            "price": "$8"
+        },
+        {
+            "name": "Rosemary Parmesan",
+            "price": "$8"
+        },
+        {
+            "name": "Mexican Mocha Morning Bun",
+            "price": "$8"
+        }
+    ],
+    "Breakfast Pastries": [
+        {
+            "name": "Pear and Cranberry Scone",
+            "price": "$6"
+        },
+        {
+            "name": "Cinnamon Bun with Vanilla Glaze",
+            "price": "$6"
+        },
+        {
+            "name": "Herby Gruyere Scone",
+            "price": "$6"
+        }
+    ],
+    "Savory Items": [
+        {
+            "name": "Butternut, Mushroom, Kale, Gruyere Cheese Quiche",
+            "price": "Whole: $35 | Slice: $7"
+        },
+        {
+            "name": "Schiacciata with Spinach, Onion, Mozzarella, and Potato",
+            "price": "$10"
+        },
+        {
+            "name": "Meat, Veggie, or Vegan Pizza",
+            "price": "$8"
+        },
+        {
+            "name": "Traditional Onion and Poppy Bialy",
+            "price": "$6"
+        },
+        {
+            "name": "Pork Pot Sticker Hand Pie with Ponzu Soy Dippies",
+            "price": "$14"
+        },
+        {
+            "name": "Indian Masala Stromboli-Potatoes, Cauliflower, Peas, Chickpeas, Paneer Cheese in a Masala Curry",
+            "price": "$15"
+        },
+        {
+            "name": "Pesto Chicken on Ciabatta- Roasted Chicken, Red Bell Peppers, Arugula, Provolone, Pepita Pesto, and Pickled Onions",
+            "price": "$15"
+        },
+        {
+            "name": "Prosciutto and Gruyere on a Biscuit with Jalapeno Jelly",
+            "price": "$9"
+        },
+        {
+            "name": "Spelt Pretzel with Cheese Dippies",
+            "price": "$5"
+        }
+    ],
+    "Sweets": [
+        {
+            "name": "Raspberry Mousse Dome with Lemon Curd Center and Matcha Cake",
+            "price": "$5"
+        },
+        {
+            "name": "Chocolate Mocha Basque Cheesecake",
+            "price": "$8"
+        },
+        {
+            "name": "Pistachio Buttercream French Macaron (GF)",
+            "price": "$3.50"
+        },
+        {
+            "name": "Apple Pecan Streusel Coffee Cake",
+            "price": "$7"
+        },
+        {
+            "name": "Caramel Pear Upside Down Almond Cake (GF)",
+            "price": "$7"
+        },
+        {
+            "name": "Persimmon Pomegranite Tart with Creme Fraiche Panna Cotta",
+            "price": "$8"
+        },
+        {
+            "name": "Raspberry Chocolate Stuffed Sesame Cookies (GF, Vegan)",
+            "price": "$5"
+        },
+        {
+            "name": "Pistachio Chocolate Chip Baklava",
+            "price": "$5"
+        }
+    ],
+    "Bars": [
+        {
+            "name": "Nut and Seed Bar",
+            "price": "$5"
+        },
+        {
+            "name": "Dark Chocolate Ganache Brownies",
+            "price": "$5"
+        },
+        {
+            "name": "Salted Caramel Nut Brownies",
+            "price": "$5"
+        },
+        {
+            "name": "Butterscotch, Milk, and Dark Chocolate Blondies",
+            "price": "$5"
+        }
+    ],
+    "Cookies": [
+        {
+            "name": "Chocolate Chunk",
+            "price": "$4"
+        },
+        {
+            "name": "Cranberry Coconut White Chocolate",
+            "price": "$4"
+        },
+        {
+            "name": "Pumpkin Maple",
+            "price": "$4"
+        },
+        {
+            "name": "Classic Peanut Butter",
+            "price": "$4"
+        },
+        {
+            "name": "Ginger Molasses (Vegan)",
+            "price": "$4"
+        },
+        {
+            "name": "Double Chocolate Coffee Chip",
+            "price": "$4"
+        }
+    ],
+    "Bagged Items": [
+        {
+            "name": "Pecan Sandies",
+            "price": "-"
+        },
+        {
+            "name": "Gingerbread Squares",
+            "price": "-"
+        },
+        {
+            "name": "Assorted Fruit Granola",
+            "price": "-"
+        }
+    ],
+    "Bread": [
+        {
+            "name": "Classic",
+            "price": "$11"
+        },
+        {
+            "name": "Cacio e Pepe",
+            "price": "$12"
+        },
+        {
+            "name": "Roasted Garlic, Rosemary, Olive",
+            "price": "$12"
+        },
+        {
+            "name": "Farmers Seed Loaf",
+            "price": "$13"
+        },
+        {
+            "name": "Focaccia",
+            "price": "$12"
+        },
+        {
+            "name": "Yecora Rojo Baguette",
+            "price": "$8"
+        },
+        {
+            "name": "Spelt Pretzel with Cheese Sauce",
+            "price": "$5"
+        },
+        {
+            "name": "Traditional Onion Poppy Bialy",
+            "price": "$5"
+        }
+    ]
+}
